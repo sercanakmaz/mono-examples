@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "build",
+        "command": "mcs",
+        "type": "process",
+        "args": ["Program.cs", "--debug"],
+        "problemMatcher": "$msCompile"
+    }]
+}
